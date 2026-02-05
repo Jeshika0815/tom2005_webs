@@ -1,0 +1,30 @@
+{
+    "articles": {
+        "article1":{
+            "title": "サイトをリニュアル中です！",
+            "release_date": "2026/02/05",
+            "media_data": ["./sample1.jpg", "sample2.txt"],
+            "content":"サイトをリニューアル中です。\nこんにちは、齊藤巧海(Jeshika)です。　只今、私自身のポートフォリオや自己発信を行う基盤として本サイトのリニューアルを実施中です。見づらい点などあるかもしれませんがよろしくお願いいたします。"
+        },
+        "article2":{
+            "title": "昨年12月に論文共同著者として「第28回 サイバースペースと仮想都市シンポジウム プログラム」に出席いたしました。",
+            "release_date": "2026/02/05",
+            "media_data": ["./sample3.jpg", "sample4.txt"],
+            "content":"[第28回 サイバースペースと仮想都市シンポジウム プログラム](https://www.sigcs.org/2025/12/28.html)　私は2025年12月23日に行われた当プログラムに、「Webスクレイピング技術を利用したサイバー空間上における犯罪捜査の提案」の論文の共同著者として参加いたしました。"
+        }
+    },
+    "portfolio": {
+        "article1":{
+            "title": "Ushiku app",
+            "release_date": "2026/02/05",
+            "url": "https://github.com/Jeshika0815/ushiku_apps_pub",
+            "content":"This is sample portofolio content"
+        },
+        "article2":{
+            "title": "Edogawa Emirun",
+            "release_date": "2026/02/05",
+            "url": "https://---.jp",
+            "content":"This is sample portofolio content"
+        }
+    }
+}
