@@ -1,0 +1,817 @@
+﻿/*jeshika-web-frame2022*/
+/*coded Jeshika2022*/
+/*updated: 2026/02/05*/
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+
+
+:root{--myBGColor:snow;
+      --myMargin:0px;
+}
+/* ①header */
+
+ 
+ .h_t{font-size:medium; font-family:"MSゴシック"; color:gray;}
+ 
+ .h_m_t{display:inline-block; top:20px; left:10px;  width:200px; height:30px; padding:5px 10px 10px 10px; text-align:center; background:linear-gradient(to bottom right, mediumvioletred, violet); color:lavenderblush; border-radius:10px; position:relative; font-size:xx-large; font-family: 'Beau Rivage', cursive;}
+
+ .tia_1{font-family: 'Beau Rivage', cursive;}
+ 
+  .h_bu{font-size:large; overflow: hidden; padding:10px 10px 10px 10px; border-bottom:2px solid white; text-decoration:none; color:black;}
+  .h_bu:hover{border-bottom:2px solid violet;}
+    
+    .header_bunner {display:block;}
+    
+
+
+    .rogo {
+           top: 2px;
+           left: 2px;
+           width: 126;
+           height: 40;
+           z-index: 3;
+          }
+    
+
+			
+     .head_info{
+           display:block;
+           padding:10px 30px 10px 30px;
+           background: linear-gradient(70deg, blue, pink);
+           color:white;
+           text-align:center;
+           }
+           
+      .head_info_button{
+                        display:block;
+                        width:20%;
+                        padding:10px 3px 10px 3px;
+                        background:skyblue;
+                        color:gray;
+                        text-decoration:none;
+                        
+                        }
+                        
+      .head_info_button:active{
+                               background:snow;
+                               text-decoration:none;
+                               }
+
+.tb {font-family:"Arial"; font-size:xx-large;}              
+.tx {font-family:"游明朝"; font-size:large;}
+
+    
+/* ②fotter */
+   fotter{
+          margin-bottom : 0%;
+          width: 100%;
+          height: 10%;
+          display: block;
+          background: silver; /*カラー設定部*/
+          padding: 20px 0px 20px 0px;
+          z-index:  2;
+         }
+   .fotter{
+          margin-bottom : 0%;
+          width: 100%;
+          height: 20%;
+          display: block;
+          background: silver; /*カラー設定部*/
+          padding: 20px 0px 20px 0px;
+          z-index:  2;
+         }
+  .linker{
+        color: gray;
+        text-decoration: none;
+       
+       }
+  .linker:hover {background: #AAAAAA; text-decoration : none;}
+  .linkli{
+          list-style: none;
+         }
+         
+  .fotter_belt {
+                margin: 0px;
+                display: inline-block;
+                bottom: 0px;
+                width: 100%;
+                
+                z-index: 2;
+                padding: 0px 0px 1px 0px;
+               }
+.fo{ display:block;
+     width:auto;
+     height:180px;
+     background:ghostwhite;
+     padding-top:10px;
+     padding-left:15px;
+     padding-right:15px;
+     padding-bottom:1px;
+     }
+     
+.f_m { display:inline-block;
+       width:200px;
+       height:250px;
+       text-align:left;
+       padding:1px 2px 1px 2px;
+       font-size:medium;
+       font-family:"MS明朝";
+     }.f_m_s{list-style:none; font-family:"游明朝";} 
+     
+     .f_m_a{text-decoration:none; color:gray;} .f_m_a:hover{background:whitesmoke; text-decoration:underline; color:silver;}
+     
+.f_t_a{display:inline-block;
+       text-align:left;
+       width:auto;
+       font-size:medium;
+       padding:1px 2px 1px 2px;
+
+       }
+
+
+.f_bo{
+display:block;
+position:relative;
+bottom:0px;
+width:auto;
+height:60px;
+padding:1px 1px 10px 1px;
+background:ghostwhite/*gray*/;
+}
+
+  .footer_svg{
+      width:13px;
+      height:13px;
+  }
+  
+.lang_l{text-decoration:none;
+        color:black;}
+        .lang_l:hover{text-decoration:underline;}
+
+/* ③Window(No alert) */
+  .win_head {
+              text-align: left;
+              font-size: 5px;
+              background: white;
+              border: solid 1px black;
+              
+            }
+
+  .win_body1 {
+              text-align: center;
+              font-size: 5px;
+              background: white;
+              border: solid 1px black;
+            }
+			
+	.win_head-info {
+		text-align:center;
+		background:linear-gradient(70deg, #ff66ff, pink);
+		color:black;
+		font-size:30px;
+	}
+	
+	.win_body-info{
+        text-align:center;
+		background:snow;
+		font-size:20px;
+	}		
+            
+/* ④ details */
+  details   {
+              border: 1px solid #aaa;
+              
+    
+              padding: .5em .5em 0;
+            }
+
+  summary   {
+              font-weight: bold;
+              margin: -.5em -.5em 0;
+              padding: .5em;
+            }
+
+  details[open] {
+              padding: .5em;
+            }
+
+details[open] summary {
+              border-bottom: 1px solid #aaa;
+              margin-bottom: .5em;
+            }       
+
+
+
+/* ⑥ copylight display */
+
+ .copylight { 
+           text-decoration: none;
+           color: black
+         }
+
+ .copylight:hover {
+                 
+                 color: green;
+                 text-decoration: none;
+                 }
+				 
+ .copylight:active {
+	              border:dashed 1px black;
+ }
+
+/* ⑦ back top button */
+
+.tool_1 {
+          display:block;
+          position:fixed;
+          width:280px;
+          height:60px;
+          padding:1px 3px 1px 3px;
+          background:black;
+          border-radius:10px;
+          opacity:0.3;
+          bottom:70px;
+          right:20px;
+          z-index:9;
+          }
+          
+.tool_1b {
+          display:inline-block;
+          text-decoration:none;
+          color:lightgray;
+          /*width:200px;*/
+          height:50px;
+          border-radius:10px;
+          padding:6px 12px 3px 12px;
+          font-size:xx-large;
+          opacity:1;
+          transition: all 0.3s;
+         }.tool_1b:hover{background:snow; transition:all 0.3s; color:dimgray; }
+
+/* ⑧ body */
+
+  body { 
+        margin:0px;
+       
+        
+       }
+            
+/* SNS */
+
+.trim-image-to-circle {
+                         width: 200px;
+                         height: 200px;
+                         border-radius: 100px;
+                       }
+                       
+
+         
+
+            
+.rogo_p {
+         font-family: 'Beau Rivage', cursive;
+         font-size:200%;
+         }
+         
+.svg1{
+    width:100px;
+    height:100px;
+    
+}
+
+.box {
+      display:inline-block;
+      width:157px;
+      height:130px;
+      padding:3px 3px 3px 3px;
+      background:silver;
+      text-align:center;
+      text-decoration:none;
+      border-radius:5px;
+      color:silver;
+      transition: all 0.3s;
+      }
+ .insta:hover{
+              background: linear-gradient( #4C64D3, #CF2E92, #F26939, #FFDD83);
+              color:indigo;
+              text-decoration:none;
+              transition: all 0.3s;
+              }
+ 
+ .twitter{font-size:medium; transition: all 0.3s;}
+              
+ .twitter:hover{
+              background: skyblue;
+              color:blue;
+              text-decoration:none;
+              transition: all 0.3s;
+              }
+              
+ .yt:hover{
+           background:red;
+           color:white;
+           text-decoration:none;
+           transition: all 0.3s;
+           }
+           
+ .tk:hover{
+           background:linear-gradient(dimgray,#4DF9B9,#FFD5EC,black);
+           color:#CEF9DC;
+           text-decoration:none;
+           transition: all 0.3s;
+           }
+           
+
+.f_me {
+       width:auto;
+       height:60px;
+       padding: 1px 3px 1px 3px;
+       background:lightgray;
+       overflow:auto;
+       
+       } .f_me_p{display:inline-block; position:relative; color:orchid; font-size:x-large; font-family: 'Beau Rivage', cursive; bottom:10px;}
+
+ @media screen and (max-width:750px){.f_me_p{display:none; }}      
+.svg_rogo2{
+     width:40px;
+     height:40px;
+     }
+
+.f_me_bu {
+          display:inline-block;
+          width:40px;
+          height:40px;
+          padding:10px 10px 10px 10px;
+          text-align:center;
+          border-radius:10px;
+          transition: all 0.3s;
+          }
+.f_me_bu:hover{
+               background:silver;
+               transition: all 0.3s;
+               }
+.f_me_guide{display:none;}
+
+@media screen and (max-width:760px){
+ .f_me_guide{display:block;
+             width:auto;
+             font-size:medium;
+             background:lightgray;
+             text-align: center;
+             color:orchid; font-size:x-large; font-family: 'Beau Rivage', cursive;
+             }
+} 
+
+
+             
+
+
+/* ⑩box float */
+          .box_bd{
+  float: center;
+  }
+
+  .box_Container{
+          overflow: hidden;
+         }
+
+/* ⑪box */
+
+.body_box {
+  display: block;
+ background: lightgray;
+  
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px 5px 8px 5px;
+}
+
+/* ⑫ Serch box */
+
+.search_container{
+  box-sizing: border-box;
+  position: relative;
+  border: 1px solid #999;
+  padding: 3px 10px;
+  border-radius: 20px;
+  height: 2.3em;
+  width: 260px;
+  overflow: hidden;
+}
+.search_container input[type="text"]{
+  border: none;
+  height: 2.0em;
+}
+.search_container input[type="text"]:focus {
+  outline: 0;
+}
+.search_container input[type="submit"]{
+  cursor: pointer;
+  font-family: FontAwesome;
+  font-size: 1.3em;
+  border: none;
+  background: none;
+  color: #3879D9;
+  position: absolute;
+  width: 2.5em;
+  height: 2.5em;
+  right: 0;
+  top: -10px;
+  outline : none;
+} 
+
+
+
+@media screen and (max-width:756px){
+
+.info_name {
+            display:block;
+            width:auto;
+            height:400px;
+            font-size:large;
+            font-family:"MSゴシック";
+            background:dimgray;
+            color:white;
+            padding:3px 5px 3px 5px;
+            text-align:center;
+            }
+            
+.info_main {
+            display:block;
+            text-align:left;
+            background:snow;
+            width:1000px;
+            padding:10px 30px 10px 30px;
+            }
+ .main_font {
+              color:black;
+ }
+               .h1{
+                   font-family:"MSゴシック";
+                   font-size:large;
+                   }
+                .pa {
+                     font-family:"游明朝";
+                     font-size:small;
+                    }
+                     
+
+}
+
+/*info_h*/
+
+.about_h {
+                display:block;
+                background:gray;
+
+                color:white;
+                width:auto;
+                height:200px;
+                padding:10px 0px 10px 20px;
+                text-align:center;
+                font-family:"HG丸ｺﾞｼｯｸM-PRO";
+                border-radius:10px;
+                z-index:3;
+              }
+              
+.lang_name{/* 複数の言語が一つのコンテンツに集合しているところだけ可 */
+           display:block;
+           width:200px;
+           height:60px;
+           padding:10px 20px 10px 20px;
+           background:indigo;
+           font-size:xx-large;
+           color:white;
+           text-align:center;
+          }
+         
+.naiyo_s{
+          display:inline-block;
+          text-decoration:none;
+          width:30px;
+          height:30px;
+          color:black;
+          font-size:large;
+          text-align:center;
+}
+.naiyo_s:hover{background:silver; color:gray;}
+              
+.about_h1{font-size:xx-large;}
+.about_h2{font-size:x-large;}
+.about_h3{font-size:large;}
+.about_bh{display:inline-block; padding:10px 10px 10px 10px; text-align:center; font-size: x-large; border-radius:20px; text-decoration:none;  color:black;} .about_bh:hover{background:ghostwhite; color:gray;}
+
+.share_svg {
+        width:50px;
+        height:50px;
+        }
+        
+.share_0{
+        display:inline-block;
+        width:60px;
+        height:60px;
+        text-decoration:none;
+        
+        border-radius:30px;
+}
+.about_bh_s{display:block; position:relative; left:10px;}
+
+/*news*/
+       .info{
+display:block;
+width:350px;
+height:200px;
+background:white;
+border:solid 1px gray;
+overflow:auto;
+}
+.info_button{ display:block;
+                     width:100%;
+                     height:150px;
+                     text-decoration:none;
+                     padding:30px 30px 10px 10px;
+                     font-size:large;
+                     color:gray;
+                     overflow:hidden;
+                     }.info_button:hover{text-decoration:underline;}
+
+.hr{width:190px; height:1px; color:gray;}
+.f_1{font-size:xx-large;}
+.f_2{font-size:70px;}
+.f_3{font-size:large;}
+.f_4{font-size:x-large;}
+
+
+@media screen and (max-width:760px){
+.f_1{font-size:large;}
+.f_2{font-size:50px;}
+.f_3{font-size:small;}
+.f_4{font-size:medium;}
+.hb{font-size:small;}
+}
+       .htitle{
+        display:block;
+        width:auto;
+        height:750px;
+        background:linear-gradient(100deg, blue, skyblue);
+        padding:5px 3px 5px 3px;
+        text-align:center;
+       }
+        .htitle2{
+        display:block;
+        width:auto;
+        height:650px;
+        background:linear-gradient(100deg, blue, skyblue);
+        padding:5px 3px 5px 3px;
+        text-align:center;
+       }
+        .htitle3{
+        display:block;
+        width:auto;
+        height:250px;
+        background:linear-gradient( to top, yellow, blue);
+        padding:5px 3px 5px 3px;
+        text-align:center;
+       }
+       
+       .htitle_p1{
+        color:silver;
+        font-family:"BIZ UDPゴシック";
+
+       }.htitle_p2{
+        color:silver;
+        font-family:"BIZ UDPゴシック";
+        
+       }
+.que_6{
+ display:block;
+ width:auto;
+ height:100px;
+ border:1px solid gray;
+ border-left:2px solid blue;
+ }/* infomation box (blue)*/
+.que_1{
+ display:block;
+ width:auto;
+ height:100px;
+ position:relative;
+ top:0px;
+ box-shadow:0px 1px 5px 1px;
+ }/* header only */
+.que_3{
+ display:inline-block;
+ /*font-size:x-large;*/
+ color:dimgray;
+ overflow:hidden;
+}/* main title */
+.que_4{
+ display:inline-block;
+ width:60px;
+ height:40px;
+ padding:10px 10px 1px 10px;
+ font-size:small;
+ text-align:center;
+ background:blue;
+ color:white;
+ /*変更点*/
+ text-decoration:none;
+ position:rekative;
+ top:10px;
+ right:10px;
+ z-index:0;
+}/* trance button */
+.hb{font-size:x-large;}
+
+/* tab sns */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200&display=swap');
+.tab-group{
+  display: flex;
+  justify-content: center;
+}
+.tab{
+  flex-grow: 1;
+  padding:15px 10px 15px 10px;
+  list-style:none;
+  font-size:large;
+  border-radius:10px;
+  text-align:center;
+  background:#999999;
+  cursor:pointer;
+  overflow:hidden;
+  }
+.panel-group{
+  height:610px;
+  width:auto;
+  border-top:none;
+  
+}
+.panel{
+  display:none;
+ 
+}
+.tab.is-active{
+  background:silver;
+  color:black;
+  transition: all 0.2s ease-out;
+}
+.panel.is-show{
+  display:block;
+  height:850px;
+}
+.tab_font{font-family: 'Plus Jakarta Sans', sans-serif;}
+
+
+.tab.is-active.tc_1{background:linear-gradient(90deg,#FF00FF,#CC00FF,#9900FF,#6600FF);color:white; }
+.tab.is-active.tc_2{background:#0099FF;color:lightgray;}
+.tab.is-active.tc_3{background:#99FF00;color:gray;}
+
+
+.tag1{display:block;  border-radius:20px; padding:10px 10px 10px 10px; text-align:center;}
+.tag2{display:inline-block; border-radius:20px; padding:10px 10px 10px 10px; text-align:center;}
+.tag_bt{display:inline-block; padding:10px 20px 10px 20px; transition: all 0.5s; font-size:medium; color:white; border:solid 1px lightgray; background:dimgray; text-decoration:none; border-radius:10px; opacity:0.6;}
+.tag_bt:hover{background:gray; color:white; transition: all 0.5s;}
+.bb_a{background:linear-gradient(100deg,blue,skyblue);} .bb_b{background:gold;} .bb_c{background:linear-gradient(50deg,hotpink,gold,aquamarine,lightblue);} 
+.fcc_a{color:lightgray;} .fcc_b{color:gray;} .fcc_c{color:dimgray;}
+.aa{width:900px;}.bs{width:800px;} .ca{width:700px;} .de{width:600px;} .em{width:500px;} /* %表記 */
+.10{height:900px;} .09{height:800px;} .08{height:700px;} .07{height:600px;} .06{height:500px;} .05{height:400px;} .04{height:300px;}
+.ff_1{font-size:70px;} .ff_2{font-size:60px;} .ff_3{font-size:xx-large;} .ff_4{font-size:x-large;} .ff_5{font-size:large;}
+
+@media screen and (max-width:750px){
+.10{height:600px;} .09{height:500px;} .08{height:400px;} .07{height:300px;} .06{height:200px;} .05{height:100px;} .04{height:90px;}
+.ff_1{font-size:50px;} .ff_2{font-size:40px;} .ff_3{font-size:large;} .ff_4{font-size:medium;} .ff_5{font-size:small;}
+}
+.koma{background:gray; width:80%; text-align:center; padding:10px 10px 10px 10px; border-left:10px solid black; border-radius:5px;}
+        .overlays {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	/*background: rgba(0, 0, 0, 0.5);*/
+	transition: opacity 200ms;
+	visibility: hidden;
+	opacity: 0;
+}
+.overlays .cancel {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	cursor: default;
+}
+.overlays:target {
+	visibility: visible;
+	opacity: 1;
+}
+.modals {
+	margin: 0px auto;
+    top:50px;
+    /*left:10%;*/
+	padding: 20px;
+	background: #fff;
+	border: 1px solid #666;
+	width: 80%;/*one*/
+    
+	border-radius:6px;
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+	position: relative;
+	z-index:1;
+	overflow:hidden;
+}
+.modals h2 {
+	margin-top: 0;
+}
+.modals .close {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 20px;
+	right: 20px;
+	opacity: 0.8;
+	transition: all 200ms;
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #777;
+}
+.modals .close:hover {
+	opacity: 1;
+}
+.modals .cont {
+	max-width: 400px;
+	overflow: auto;
+}
+.modals p {
+	margin: 0 0 1em;
+	text-align: center;
+}
+.modals p:last-child {
+	margin: 0;
+}
+.clos{text-decoration:none; color:gray;} .clos:hover{color:darkgray;}
+
+.tinana_a{font-size:xx-large; text-align:center;}
+.tinana_b{display:block; width:50%; height:300px; overflow-y:auto; overflow-x:auto; border:1px solid black; border-radius:10px; padding:10px 10px 10px 10px;   scrollbar-color: gray; scrollbar-width: thin;}
+
+/* 引用元 URL:https://coliss.com/articles/build-websites/operation/css/custom-scrollbars-in-css.html */
+/* chrome etc... */
+.tinana_b::-webkit-scrollbar {width: 20px;}
+.tinana_b::-webkit-scrollbar-track {background-color: #e4e4e4; border-radius: 100px;}
+.tinana_b::-webkit-scrollbar-thumb {border-radius: 100px; background-image: gray; box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);}
+.tinana_b::-mozkit-scrollbar {width: 20px;}
+.tinana_b::-mozkit-scrollbar-track {background-color: #e4e4e4; border-radius: 100px;}
+.tinana_b::-mozkit-scrollbar-thumb {border-radius: 100px; background-image: gray; box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);}
+
+/*お知らせ用*/
+.box_base{display:block;margin:0; width:auto; text-align: center; padding:0px 30px 0px 30px; }
+.info_Bo_A{width:1200px; height:300px;  padding:10px 10px 10px 10px; overflow:hidden; border-radius: 10px;}
+.content{display:inline-block; width:300px;  padding:10px 10px 10px 10px;}
+
+.info_b{background:linear-gradient(100deg,skyblue,lightgreen);}
+.pic_lie{width:300px; height: 200px;}
+
+.box_tfont{font-weight:bold; color:black;}
+.box_font{font-weight:lighter; color:black;}
+
+@media screen and (max-width:650px) {
+  .box_base{display:block;margin:0; width:auto; text-align: center; padding:0px 30px 0px 30px; background: lightslategray;}
+.info_Bo_A{width:auto; height:auto;  padding:10px 10px 10px 10px; overflow:hidden; border-radius: 0px;}
+.content{display:inline-block;  width:300px;  padding:10px 10px 10px 10px;}
+
+.info_b{background:linear-gradient(100deg,skyblue,lightgreen);}
+.pic_lie{width:250px; height: 200px;}
+
+}
+.in_box{width:900px; height:300px; border:2px solid #e4e4e4; border-radius: 10px; box-shadow: 5px 5px 10px 5px gray; padding:30px 10px 30px 10px; background:linear-gradient(100deg,skyblue,lightblue,lightgreen,yellow); overflow:auto;}
+.in_box_el{display:block; width:800px;  border:1px solid dimgray; text-decoration: none; padding:25px 10px 25px 10px; text-align: left; cursor:default; transition: all 0.3s; border-radius: 10px; font-size:20px; overflow: hidden; color:rgb(0, 0, 0);}.news_el:hover{background:white; opacity:0.5; color:gray; border: 1px solid white; transition: all 0.3s; border-left:10px solid white;}
+.std{border-left: 10px solid gray;} .important{border-left:10px solid red; }
+
+/* 引用元 URL:https://coliss.com/articles/build-websites/operation/css/custom-scrollbars-in-css.html */
+/* chrome etc... */
+.in_box::-webkit-scrollbar {width: 20px;}
+.in_box::-webkit-scrollbar-track {background-color: #e4e4e4; border-radius: 7px;}
+.in_box::-webkit-scrollbar-thumb {border-radius: 10px; background-image: linear-gradient(180deg, blue,skyblue); box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);}
+
+/* filefox */
+.in_box::-moz-scrollbar {width: 20px;}
+.in_box::-moz-scrollbar-track {background-color: #e4e4e4; border-radius: 7px;}
+.in_box::-moz-scrollbar-thumb {border-radius: 10px; background-image: linear-gradient(180deg,blue,skyblue); box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);}
+
+@media screen and (max-width:650px){
+.in_box{width:auto; height:200px; border-radius: 0; box-shadow: none; padding:30px 10px 30px 10px; border:2px solid #e4e4e4; background:linear-gradient(100deg,skyblue,lightblue,lightgreen,yellow); overflow:auto;}
+.in_box_el{display:block; width:300px;  border:1px solid dimgray; text-decoration: none; padding:25px 10px 25px 10px; text-align: left; cursor:default; transition: all 0.3s; border-radius: 10px; font-size:small; overflow: hidden; color:rgb(0, 0, 0);}.news_el:hover{background:white; opacity:0.5; color:gray; border: 1px solid white; transition: all 0.3s; border-left:10px solid white;}
+.std{border-left: 10px solid gray;} .important{border-left:10px solid red; } 
+ }
+
+ .pictures{position: fixed; top:0; bottom:0; left:0; right: 0; background:black; visibility: hidden; transition: all 0.2ms; z-index:10;}
+ .pictures:target{visibility: visible;}
+ .pictures_c{text-decoration: none; font-size:x-large; padding:10px 10px 5px 10px; width:30px; color: white; transition:all 0.3ms; } .pictures_c:hover{transition:all 0.3ms; background:red; color:white;}
+ .pictures_pic_x{width:800px; height:500px;} .pictures_pic_y{width:300px; height:600px;}
+ .pictures_info{width:800px; padding:10px 10px 10px 10px; font-size:large; color:lightgray;}
+
+ @media screen and (max-width:750px){
+  .pictures{position: fixed; top:0; bottom:0; left:0; right: 0; background:black; visibility: hidden; transition: all 0.2ms; z-index:10;}
+ .pictures:target{visibility: visible;}
+ .pictures_c{text-decoration: none; font-size:x-large; padding:10px 10px 5px 10px; width:30px; color: white; transition:all 0.3ms; } .pictures_c:hover{transition:all 0.3ms; background:red; color:white;}
+ .pictures_pic_x{width:300px; height:200px;} .pictures_pic_y{width:200px; height:300px;}
+ .pictures_info{width:200px; padding:10px 10px 10px 10px; font-size:xx-small; color:lightgray;}
+ }
