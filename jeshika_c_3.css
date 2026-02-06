@@ -85,6 +85,7 @@ body{margin:0; }
 .twi:hover{background:rgb(167, 225, 248);}
 .yout:hover{background:rgb(255, 0, 0);}
 .tk:hover{background:linear-gradient(dimgray,#4DF9B9,#FFD5EC,black);}
+.lnkin:hover{background:rgb(44, 44, 255);}
 
 /*.acc{display:none; width:300px;  padding:3px 7px;  color:black; font-size: large; position:absolute; left:41%; top:48%;}*/
 .acc{display:none;   padding:3px 7px;  color:black; font-size: large;}
