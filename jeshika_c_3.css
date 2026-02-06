@@ -245,8 +245,8 @@ footer{text-align:center; position:absolute;  left:0; right:0; padding:20px; bac
 
     header{padding:3px 5px;}
     header a{font-size: xx-small; padding:3px 5px;}
-    #article_base .a_content{width:100%; font-size: x-small;}
-    #exit_art{font-size: large;}
+    #article_base .a_content{width:80%; font-size: x-small;}
+    #exit_art{font-size: large; top:1px; right:1px;}
 
 }
 @media screen and (max-width:380px){
