@@ -18,13 +18,13 @@
             "title": "Ushiku app",
             "release_date": "2026/02/05",
             "url": "https://github.com/Jeshika0815/ushiku_apps_pub",
-            "content":"This is sample portofolio content"
+            "content":"　本プログラムは、一昨年前に行われた株式会社シラヤマとその牛久工場のDX化に向けた企業プロジェクトにて作業内容を記した注文書、作業員が毎日提出する日報を第一段階として電子化したいとのご要望を受け、プロトタイプとして開発したものです。　ポートフォリオという形で内容を一部変更した上で公開を行なっております。"
         },
         "article2":{
             "title": "Edogawa Emirun",
-            "release_date": "2026/02/05",
-            "url": "https://---.jp",
-            "content":"This is sample portofolio content"
+            "release_date": "2026/02/06",
+            "url": "https://github.com/Jeshika0815/edogawa_emirun_pub",
+            "content":"　本プログラムは、昨年06月から12月まで実施されたAmazon Web Service Japanと株式会社スカイアーチネットワークの2社と行なった企業プロジェクトにて、学校のある地域の社会課題を解決するというテーマのもと私たちが提案したサービスのプロトタイプであります。　今後、AWSとの機能連携とSAMを用いた本格的な開発を行い、高齢者とのまともな会話が行えるように実装を行う予定です。 [江戸川笑るん_詳細](https://drive.google.com/file/d/1Dfg1AUj55fmC4vCmrDpQiEq3EAtRfsUs/view?usp=sharing)"
         }
     }
 }
