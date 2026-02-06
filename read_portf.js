@@ -41,10 +41,13 @@ async function display_portf(targets){
     // データの読み込み
     const data = await query(targets);
     if(!data) return;
+    const contents = await fetch(data.content);
+    if(!contents) return;
+    const content = await contents.text();
     
     let arContent;
     try{
-        arContent = await parseContent(data.content);
+        arContent = await parseContent(content);
     }catch(e){
         console.error('parse Error: ', e);
         arContent = data.content;
@@ -59,7 +62,9 @@ async function display_portf(targets){
         <div align="right"><span id="exit_art">×</span></div>
         <h1 align="left">${data.title}</h1>
         <h3 align="right">${data.release_date}</h3>
-        <h4 align="right"><a href="${data.url}">${data.url}</a></h4>
+        <h4 align="right">リポジトリ：<a href="${data.repos}">${data.repos}</a></h4>
+        <h4 align="right">アクセス：<a href="${data.access_url}">${data.access_url}</a></h4>
+        <h4 align="right">ダウンロード：<a href="${data.dl_url}">${data.dl_url}</a></h4>
         <hr color="black" width="100%">
         <div id="maincontent">
             <p>${arContent}</p>

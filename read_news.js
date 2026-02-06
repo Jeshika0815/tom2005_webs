@@ -38,13 +38,16 @@ async function show_news_list(){
 
 // show an artcle
 async function display_news(targets){
-    // データの読み込み
+    // データファイルの読み込み
     const data = await query(targets);
     if(!data) return;
-    
+    const contents = await fetch(data.content);
+    if(!contents) return;
+    const content = await contents.text();
+
     let arContent;
     try{
-        arContent = await parseContent(data.content);
+        arContent = await parseContent(content);
     }catch(e){
         console.error('parse Error: ', e);
         arContent = data.content;

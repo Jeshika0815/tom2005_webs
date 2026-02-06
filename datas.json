@@ -4,27 +4,31 @@
             "title": "サイトをリニュアル中です！",
             "release_date": "2026/02/05",
             "media_data": ["./sample1.jpg", "sample2.txt"],
-            "content":"サイトをリニューアル中です。\nこんにちは、齊藤巧海(Jeshika)です。　只今、私自身のポートフォリオや自己発信を行う基盤として本サイトのリニューアルを実施中です。見づらい点などあるかもしれませんがよろしくお願いいたします。"
+            "content": "./txts/art1.md"
         },
         "article2":{
             "title": "昨年12月に論文共同著者として「第28回 サイバースペースと仮想都市シンポジウム プログラム」に出席いたしました。",
             "release_date": "2026/02/05",
             "media_data": ["./sample3.jpg", "sample4.txt"],
-            "content":"[第28回 サイバースペースと仮想都市シンポジウム プログラム](https://www.sigcs.org/2025/12/28.html)　私は2025年12月23日に行われた当プログラムに、「Webスクレイピング技術を利用したサイバー空間上における犯罪捜査の提案」の論文の共同著者として参加いたしました。"
+            "content": "./txts/art2.md"
         }
     },
     "portfolio": {
         "article1":{
             "title": "Ushiku app",
             "release_date": "2026/02/05",
-            "url": "https://github.com/Jeshika0815/ushiku_apps_pub",
-            "content":"　本プログラムは、一昨年前に行われた株式会社シラヤマとその牛久工場のDX化に向けた企業プロジェクトにて作業内容を記した注文書、作業員が毎日提出する日報を第一段階として電子化したいとのご要望を受け、プロトタイプとして開発したものです。　ポートフォリオという形で内容を一部変更した上で公開を行なっております。"
+            "repos": "https://github.com/Jeshika0815/ushiku_apps_pub",
+            "dl_url":"",
+            "access_url":"",
+            "content": "./txts/port1.md"
         },
         "article2":{
-            "title": "Edogawa Emirun",
+            "title": "江戸川 笑みるん",
             "release_date": "2026/02/06",
-            "url": "https://github.com/Jeshika0815/edogawa_emirun_pub",
-            "content":"　本プログラムは、昨年06月から12月まで実施されたAmazon Web Service Japanと株式会社スカイアーチネットワークの2社と行なった企業プロジェクトにて、学校のある地域の社会課題を解決するというテーマのもと私たちが提案したサービスのプロトタイプであります。　今後、AWSとの機能連携とSAMを用いた本格的な開発を行い、高齢者とのまともな会話が行えるように実装を行う予定です。 [江戸川笑るん_詳細](https://drive.google.com/file/d/1Dfg1AUj55fmC4vCmrDpQiEq3EAtRfsUs/view?usp=sharing)"
+            "repos": "https://github.com/Jeshika0815/edogawa_emirun_pub",
+            "dl_url":"",
+            "access_url":"https://d2ka1nqvx8b9tv.cloudfront.net/",
+            "content": "./txts/port2.md"
         }
     }
 }
